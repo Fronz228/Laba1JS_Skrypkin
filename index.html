@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laba 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="in_modal modal_tittlespace">
+            <h3 class="modal_title">Modal</h3>
+            <button class="modal-off" onclick="OnModalClick()">x</button>
+        </div>
+        <hr>
+        <div class="in_modal modal_textspace">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+        </div>
+        <hr>
+        <div class="in_modal modal_buttonspace">
+            <button class="modal-close" onclick="OnModalClick()">Close</button>
+            <button class="modal_on_btn">Acepted</button>
+        </div>
+    </div>
+
+    <div class="wrapper"></div>
+
+
+    <section class="btn_space">
+        <button class="modal_on_btn" onclick="OnModalClick()">Confirm</button>
+    </section>
+
+    <script src="modal.js"></script>
+</body>
+</html>
