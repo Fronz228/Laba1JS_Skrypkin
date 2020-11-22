@@ -10,7 +10,7 @@
     <div class="modal">
         <div class="in_modal modal_tittlespace">
             <h3 class="modal_title">Modal</h3>
-            <button class="modal-off" onclick="OnModalClick()">x</button>
+            <button class="modal-off"  data-click-modal>x</button>
         </div>
         <hr>
         <div class="in_modal modal_textspace">
@@ -18,16 +18,16 @@
         </div>
         <hr>
         <div class="in_modal modal_buttonspace">
-            <button class="modal-close" onclick="OnModalClick()">Close</button>
+            <button class="modal-close"  data-click-modal>Close</button>
             <button class="modal_on_btn">Acepted</button>
         </div>
     </div>
 
-    <div class="wrapper"></div>
+    <div class="wrapper" data-click-modal></div>
 
 
     <section class="btn_space">
-        <button class="modal_on_btn" onclick="OnModalClick()">Confirm</button>
+        <button class="modal_on_btn"  data-click-modal>Confirm</button>
     </section>
 
     <script src="modal.js"></script>
